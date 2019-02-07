@@ -1,0 +1,1002 @@
+ 1019  git chkout master
+ 1020  git chekout master
+ 1021  git checkout master
+ 1022  git branch
+ 1023  git log --pretty=oneline
+ 1024  git rebase -i 635d30db2b679dfa6613f6ae468e14cafcb6cbaf^
+ 1025  python3 manage.py migrate 0013_auto_20180522_1537
+ 1026  python3 manage.py migrate museums 0013_auto_20180522_1537
+ 1027  python3 manage.py makemigraitons
+ 1028  python3 manage.py makemigrations
+ 1029  python3 manage.py migrate
+ 1030  python3 manage.py makemigrations
+ 1031  python3 manage.py migrate
+ 1032  python3 manage.py runserver
+ 1033  python3 manage.py createsuperuser
+ 1034  python3 manage.py runserver
+ 1035  python3 manage.py makemigrations
+ 1036  python3 manage.py migrate
+ 1037  python3 manage.py runserver
+ 1038  java -version
+ 1039  sudo apt-get install openjdk-8-jdk
+ 1040  java -version
+ 1041  sudo apt-get install openjdk-8-jdk
+ 1042  sudo apt-get install -f openjdk-8-jdk
+ 1043  sudo apt-get install -f
+ 1044  sudo apt-get install openjdk-8-jdk
+ 1045  java -version
+ 1046  sudo  update-java-alternatives --list
+ 1047  sudo apt-get autoremove eclipse*
+ 1048  rm -r ~/.eclipse/
+ 1049  tar xfz ~/Downloads/eclipse-inst-linux64.tar.gz
+ 1050  java -d64 -version
+ 1051  java -d32 -version
+ 1052  sudo apt-get autoremove eclipse*
+ 1053  sudo update-alternatives --config java
+ 1054  sudo apt purge java*
+ 1055  fsd
+ 1056  sudo update-alternatives --config java
+ 1057  sudo apt-get update && sudo apt-get upgrade
+ 1058  sudo apt-get install software-properties-common
+ 1059  sudo add-apt-repository ppa:webupd8team/java
+ 1060  sudo apt-get update
+ 1061  sudo apt-get install oracle-java8-installer
+ 1062  sudo update-alternatives --config java
+ 1063  sudo apt-get install openjdk-8-jre
+ 1064  sudo apt-get remove --purge eclipse
+ 1065  sudo purge eclipse
+ 1066  sudo apt-get autoremove eclipse*
+ 1067  history | grep ssh
+ 1068  ssh rpacheco@alpha.aulas.gsyc.urjc.es
+ 1069  ssh rpacheco@beta.aulas.gsyc.urjc.es
+ 1070  heroku --version
+ 1071  history | gre ssh
+ 1072  history | grep ssh
+ 1073  ssh rpacheco@beta.aulas.gsyc.urjc.es
+ 1074  git init
+ 1075  ls -a
+ 1076  git remote add origin https://github.com/rodrigo-pacheco/spark-example-rodrigo-pacheco-2.git
+ 1077  ls -a
+ 1078  git push -u origin master
+ 1079  git push
+ 1080  git push origin master
+ 1081  git push master
+ 1082  ls -a
+ 1083  git add *
+ 1084  git commit -m "Initial commit"
+ 1085  git push origin master
+ 1086  echo language: java > .travis.yml
+ 1087  la -a
+ 1088  cat .travis.yml 
+ 1089  git add *
+ 1090  git commit -m "añado fichero travis"
+ 1091  git add 
+ 1092  git add .travis.yml 
+ 1093  git commit -m "añado fichero travis"
+ 1094  git push origin master
+ 1095  echo comment only to start travis working > startTravis.text
+ 1096  git add startTravis.text 
+ 1097  git commit -m "Creo un fichero con texto sin importanica para hacer commit y que Travis comience a funcionar"
+ 1098  git push
+ 1099  heroku create spark-example-rodrigo-pacheco-2
+ 1100  sudo snap install heroku --classic
+ 1101  heroku create spark-example-rodrigo-pacheco-2
+ 1102  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+ 1103  sudo apt install curl
+ 1104  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+ 1105  sudo snap install heroku --classic
+ 1106  git status
+ 1107  git add *
+ 1108  git commit -m "Subidos todos los archivos"
+ 1109  git push origin master
+ 1110  touch herokucreationinfo.txt
+ 1111  gedit herokucreationinfo.txt 
+ 1112  git add -A
+ 1113  git commit -m "Añado informaicón de creación de Heroku"
+ 1114  git push origin master
+ 1115  curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+ 1116  ls
+ 1117  la -a
+ 1118  gedit .travis.yml 
+ 1119  git add -A
+ 1120  git commit "fichero .travis modificado para añadir Heroku
+ 1121  "
+ 1122  git commit "fichero .travis modificado para añadir Heroku"
+ 1123  git commit -m "fichero .travis modificado para añadir Heroku"
+ 1124  git push
+ 1125  ls
+ 1126  travis encrypt $(heroku auth:token) --add deploy.api.key
+ 1127  git pull
+ 1128  git pull origin master
+ 1129  echo web: java -jar ./target/pruebasMockito-0.0.1-jar-with-dependencies.jar > Procfile
+ 1130  git add -A
+ 1131  git commit -m "Creado fichero Procfile"
+ 1132  git push origin master
+ 1133  git add -A
+ 1134  git commit -m "Cambio em pom.xml"
+ 1135  git push origin master
+ 1136  gedit .travis.yml 
+ 1137  git add -A
+ 1138  git commit -m "Cambio en .travis"
+ 1139  git push origin master
+ 1140  gedit .travis.yml &
+ 1141  git add -A
+ 1142  git commit -m "Cambio en .travis -> indentation and name modification"
+ 1143  git push origin master
+ 1144  gedit .travis.yml &
+ 1145  cat Procfile 
+ 1146  git add -A
+ 1147  git commit -m "Cambio en el orden en el .travis"
+ 1148  git push origin master
+ 1149  cd ING_SIT_INFORMACION/
+ 1150  git init
+ 1151  git add README.md
+ 1152  git commit -m "first commit"
+ 1153  git remote add origin https://github.com/rodrigo-pacheco/Ejercicio_JUnit.git
+ 1154  git push origin master
+ 1155  git push
+ 1156  echo "# Ejercicio_JUnit" >> README.md
+ 1157  git commit -m "first commit"
+ 1158  git push origin master
+ 1159  git push
+ 1160  ls -a
+ 1161  git add README.md 
+ 1162  git commit -m "first commit"
+ 1163  git push origin master
+ 1164  touch UnionTest.java
+ 1165  ls -a
+ 1166  git add -A
+ 1167  git commit "Primer test"
+ 1168  ls -a
+ 1169  git add -u
+ 1170  git commit -m "Primer test"
+ 1171  git push origin master
+ 1172  git add -u
+ 1173  git commit -m "Primer test"
+ 1174  git push origin master
+ 1175  git add -u
+ 1176  git commit -m "Implementado código para primer test (superado)"
+ 1177  git add -u
+ 1178  git commit -m "Implementado código para primer test (superado)"
+ 1179  git add Union.java UnionTest.java 
+ 1180  git commit -m "Implementado código para primer test (superado)"
+ 1181  git push origin master
+ 1182  git add Union.java UnionTest.java 
+ 1183  git commit -m "Segundo test"
+ 1184  git push origin master
+ 1185  git add Union.java UnionTest.java 
+ 1186  git commit -m "Tercer test - vector vacío"
+ 1187  git add Union.java UnionTest.java 
+ 1188  git commit -m "Test vector vacío y null. Código para null"
+ 1189  git add Union.java UnionTest.java 
+ 1190  git commit -m "Test Elementos Repetidos"
+ 1191  git add UnionTest.java 
+ 1192  git commit -m "Test Distintos Tipos"
+ 1193  git add Union.java
+ 1194  git commit -m "Código Union"
+ 1195  git add Union.java UnionTest.
+ 1196  git add Union.java UnionTest.java
+ 1197  git commit -m "Código Union"
+ 1198  git push origin master
+ 1199  git add UnionSetTest.java 
+ 1200  git commit -m "Creo UnionSetTest.java"
+ 1201  git add UnionTest.java Union.java 
+ 1202  git commit -m 'Solucionado problema con test Null, UnionTest completado"
+ 1203  git commit -m 'Solucionado problema con test Null, UnionTest completado"
+ 1204  git commit -m "Solucionado problema con test Null, UnionTest completado"
+ 1205  git push origin master
+ 1206  git add UnionSetTest.java 
+ 1207  git commit -m "Test Null"
+ 1208  git add UnionSetTest.java 
+ 1209  git commit -m "Código para Test Null"
+ 1210  git add UnionSetTest.java Union.java 
+ 1211  git commit -m "Código para Test Null"
+ 1212  git add UnionSetTest.java Union.java 
+ 1213  git commit -m "Test y código para listas vacías"
+ 1214  git add UnionSetTest.java Union.java 
+ 1215  git commit -m "Test para distintos tipos de datos"
+ 1216  git add UnionSetTest.java Union.java 
+ 1217  git commit -m "Test HappyPAth"
+ 1218  git add UnionSetTest.java Union.java 
+ 1219  git commit -m "Test para elementos repetidos"
+ 1220  git add UnionSetTest.java Union.java 
+ 1221  git commit -m "Elementos null en las listas"
+ 1222  git push origin master
+ 1223  git add UnionSetGenericTest.java Union.java 
+ 1224  git commit -m "Creo lo elementos Before y After de los test y el código básico de Union"
+ 1225  git add UnionSetGenericTest.java Union.java 
+ 1226  git commit -m "Primer test: null"
+ 1227  git add UnionSetGenericTest.java Union.java 
+ 1228  git commit -m "Segundo test SetGeneric: Happy Path"
+ 1229  git add UnionSetGenericTest.java Union.java 
+ 1230  it commit -m "Añado código de Union. Muy similar a los anteriores."
+ 1231  git commit -m "Añado código de Union. Muy similar a los anteriores."
+ 1232  git add UnionSetGenericTest.java Union.java 
+ 1233  git commit -m "Tercer Test: elementos repetidos"
+ 1234  git add UnionSetGenericTest.java Union.java 
+ 1235  git commit -m "Cuarto Test: Elementos a null"
+ 1236  git add UnionSetGenericTest.java Union.java 
+ 1237  git commit -m "Quinto Test: Listas vacías"
+ 1238  git push origin master
+ 1239  git remote add https://github.com/rodrigo-pacheco/spark-example-rodrigo-pacheco.git
+ 1240  git add -u
+ 1241  git init
+ 1242  git add -u
+ 1243  git commit "First commit"
+ 1244  git commit -m "First commit"
+ 1245  git commit *
+ 1246  git add *
+ 1247  git commit -m "Añado todo hasta ahora"
+ 1248  git remote add https://github.com/rodrigo-pacheco/spark-example-rodrigo-pacheco.git
+ 1249  git remote add origin https://github.com/rodrigo-pacheco/spark-example-rodrigo-pacheco.git
+ 1250  git push -u origin master
+ 1251  git pull origin master
+ 1252  ls -a
+ 1253  echo Esto es una prueba inicial para que Travis comience a ejecutarse > SincronizacionInicialTravis.txt
+ 1254  git add SincronizacionInicialTravis.txt 
+ 1255  git commit -m "Añado un fichero de prueba para hacer primer commit y comprobar que Travis funciona"
+ 1256  git push
+ 1257  git add pom.xml 
+ 1258  git commit -m "Pom modificado para evitar error relativo a lambdas"
+ 1259  git push
+ 1260  ls -a
+ 1261  echo "Añado otra línea porque he tenido problemas lanzzando el Travis y hay que hacer un commit de nuevo para que comience a funcionar" >> SincronizacionInicialTravis.txt 
+ 1262  git add SincronizacionInicialTravis.txt 
+ 1263  git commit -m "Añado otra línea para lanzar Travis"
+ 1264  git push
+ 1265  git add .travis.yml 
+ 1266  git commit -m "Heroku app created. travis file modifyed"
+ 1267  git push origin master
+ 1268  git pull origin master
+ 1269  cat .travis.yml 
+ 1270  git add pom.xml 
+ 1271  git commit -m "Pom-xml modificado"
+ 1272  git push origin master
+ 1273  echo web: java -jar ./target/pruebasMockito-0.0.1-jar-with-dependencies.jar > Procfile
+ 1274  cat Procfile 
+ 1275  git add Procfile 
+ 1276  git commit -m "Procfile añadido"
+ 1277  ls -a
+ 1278  git push origin master
+ 1279  echo Otra línea final para hacer commit y comprobar si la aplicacion funciona >> SincronizacionInicialTravis.txt 
+ 1280  git add -A
+ 1281  git commit -m "Añado otra línea para hacer commit y reiniciar la app"
+ 1282  git push origin master
+ 1283  ls
+ 1284  cd ../../../..
+ 1285  cd ../../../../../../
+ 1286  cd EJERCICIOS_PRUEBAS_BASADAS_EN_GRAFOS/EJERCICIO_2
+ 1287  ls
+ 1288  javac PrintPrimes.java 
+ 1289  java PrintPrimes 
+ 1290  java PrintPrimes 65
+ 1291  java PrintPrimes 2
+ 1292  java PrintPrimes 4
+ 1293  git ad -A
+ 1294  git add -A
+ 1295  git commit -m "Apartado 1: PrintPrimes estudiado, compilado y ejecutado."
+ 1296  java PrintPrimes 7
+ 1297  git remote add origin https://github.com/rodrigo-pacheco/ISI_Test_Grafos_II_Equals.git
+ 1298  git init
+ 1299  git remote add origin https://github.com/rodrigo-pacheco/ISI_Test_Grafos_II_Equals.git
+ 1300  git push origin master
+ 1301  git add 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 06-i-ejercicios-pruebas-grafos-2\ \(1\).pdf 
+ 1302  git commit -m "Commit inicial"
+ 1303  git push origin master
+ 1304  diff -u sergio.java StutterTest.java 
+ 1305  clear
+ 1306  diff -u sergio.java StutterTest.java 
+ 1307  diff -u victor StutterTest.java 
+ 1308  git init
+ 1309  git remote add origin https://github.com/rodrigo-pacheco/ISI_Test_Grafos_I_Stutter.git
+ 1310  git add *
+ 1311  git commit "Commit inicial. Documentación provista"
+ 1312  git commit -m "Commit inicial. Documentación provista"
+ 1313  git push origin master
+ 1314  git init
+ 1315  git remote add origin https://github.com/rodrigo-pacheco/ISI_Test_Grafos_II_Print_Primes.git
+ 1316  git push -u origin master
+ 1317  git add -u
+ 1318  git commit -m "Commit inicial. Documentación proporcionada"
+ 1319  git add -A
+ 1320  git commit -m "Commit inicial. Documentación proporcionada"
+ 1321  git push origin master
+ 1322  echo language: java > .travis.yml
+ 1323  cat .travis.yml 
+ 1324  git add .travis.yml 
+ 1325  git commit -m "Fichero Travis añadido"
+ 1326  bfg --delete-folders .metadata/
+ 1327  git add -A
+ 1328  git commit -m "Proyecto Maven creado"
+ 1329  git push origin master
+ 1330  git add Solucion_Print_Primes.pdf 
+ 1331  git commit -m "solución escrita"
+ 1332  git push origin master
+ 1333  git add -A
+ 1334  git commit -m "Creo el fichero de test"
+ 1335  git add isi.travis/src/test/java/org/urjc/isi/travis/PrintPrimesTest.java 
+ 1336  git commit -m "creado @Before -> valores de las variables antes de los tests"
+ 1337  git push origin master
+ 1338  git add isi.travis/src/test/java/org/urjc/isi/travis/PrintPrimesTest.java 
+ 1339  git commit -m "Test Ejercicio 3"
+ 1340  git push origin master
+ 1341  java PrintPrimes 6
+ 1342  git add isi.travis/src/test/java/org/urjc/isi/travis/PrintPrimesTest.java 
+ 1343  git commit -m "Test Ejercicio 7. Me percato de un erro"
+ 1344  git push origin master
+ 1345  touch Apartado-7.txt
+ 1346  gedit Apartado-7.txt &
+ 1347  git add isi.travis/src/test/java/org/urjc/isi/travis/PrintPrimesTest.java 
+ 1348  git commit -m "Modifico los test para que todos pasen y que Travis se ejecute correctamente"
+ 1349  git push origin-master
+ 1350  git push origin master
+ 1351  git add Apartado-8.txt 
+ 1352  git commit -m "Error detectado y explicado. Se dejan 2 test para apartado 7. Uno de ellos pasa, el otro no porque hay error en el código"
+ 1353  git push origin master
+ 1354  gedit .travis.yml 
+ 1355  git add .travis.yml 
+ 1356  git commit -m "Travis da un problema, incluyo esto para intentar solucionarlo"
+ 1357  git push origin master
+ 1358  gedit .travis.yml &
+ 1359  git add isi.travis/src/test/java/org/urjc/isi/travis/PrintPrimesTest.java .travis.yml 
+ 1360  git commit -m "Test apartado 7 finales. Fichero travis dejado como original"
+ 1361  git push origin master
+ 1362  cd ..
+ 1363  ls
+ 1364  cd EJERCICIO_2_Equals/
+ 1365  ls
+ 1366  ls -a
+ 1367  git add Grafo_Equals.pdf 
+ 1368  git commit -m "Grafo Equals"
+ 1369  git push origin master
+ 1370  ls -a
+ 1371  git checkout TestsApartado3
+ 1372  git checkout -b TestsApartado3
+ 1373  git branch
+ 1374  git add equals/
+ 1375  git commit -m "Creo fichero de Test"
+ 1376  git commit -m "Fichero de test creado"
+ 1377  git add equals/src/equals/equalsTest.java .gitignore
+ 1378  git commit -m "Primer test Node Coverage"
+ 1379  git add equals/src/equals/equalsTest.java .gitignore
+ 1380  git commit -m "Primer test Node Coverage - mejorado"
+ 1381  git add equals/src/equals/equalsTest.java .gitignore
+ 1382  git commit -m "Segundo test Node Coverage"
+ 1383  git add equals/src/equals/equalsTest.java .gitignore
+ 1384  git commit -m "Tercer test Node Coverage"
+ 1385  git add equals/src/equals/equalsTest.java .gitignore
+ 1386  git commit -m "Cuarto test Node Coverage"
+ 1387  git checkout master
+ 1388  git add equals/src/equals/equalsTest.java .gitignore
+ 1389  git commit -m "Test Node Coverage completados"
+ 1390  git checkout master
+ 1391  git branch
+ 1392  git merge TestsApartado3 
+ 1393  git push origin master
+ 1394  git checkout -b TestApartado4
+ 1395  git add equals/src/equals/equalsTest.java .gitignore
+ 1396  git commit -m "Test Edge-Pair Coverage"
+ 1397  git checkout master
+ 1398  git merge TestApartado4 
+ 1399  git push origin-master
+ 1400  git push origin master
+ 1401  git add -A
+ 1402  git commit -m "Añado todos los ficheros no añadidos anteriormente. No aportan mayor valor"
+ 1403  git checkout -b Apartado5
+ 1404  git branch
+ 1405  cd ..
+ 1406  cd EJERCICIO_1_Stutter/
+ 1407  git status
+ 1408  git checkout -b Apartados14
+ 1409  git add .gitignore Apartados_1_4_Sutter\ \(1\).pdf 
+ 1410  git commit -m "PDF con la solución a los apartados 1,2,3 y 4"
+ 1411  git push origin Apartados14 
+ 1412  git checkout master
+ 1413  git merge Apartados14 
+ 1414  git push origin master
+ 1415  git checkout -b Apartado5
+ 1416  git add Stutter/
+ 1417  git commit -m "Creo proyecto Java para hacer los tests"
+ 1418  git push origin Apartado5
+ 1419  git add StutterTest_Cobertura_Inicial.png 
+ 1420  git commit -m "Ejecuto la herramienta de cobertura de Eclipse para comprobar que el código está prácticamente cubierto con el fichero ya suministrado"
+ 1421  git push origin Apartado5
+ 1422  word word > inputFile
+ 1423  echo word word > inputFile
+ 1424  git add inputFile 
+ 1425  git commit -m "Añado inputFile porque un test daba error al no encontrarlo"
+ 1426  echo word > inputFile
+ 1427  cat inputFile 
+ 1428  echo word >> inputFile
+ 1429  gedit inputFile 
+ 1430  cd Stutter/
+ 1431  gedit inputFile &
+ 1432  cd ..
+ 1433  git add Stutter/
+ 1434  git commit -m "Añadido fichero inputFile al sitio edecuado y con el contenido adecuado para que los test pasen. Puesto que cubren la totalidad del código, se dan por válidos"
+ 1435  git push origin Apartado5
+ 1436  git checkout master
+ 1437  git merge Apartado5
+ 1438  git push origin master
+ 1439  git pull
+ 1440  ls
+ 1441  cd ..
+ 1442  ls
+ 1443  cd EJERCICIO_1_Thermostat/
+ 1444  git init
+ 1445  git remote add origin https://github.com/rodrigo-pacheco/ISI_Test_Grafos_I_Thermostat.git
+ 1446  ls -a
+ 1447  git add 06-i-ejercicios-pruebas-grafos-1\ \(3\).pdf 
+ 1448  git commit -m "Commit inicial. Enunciado"
+ 1449  git push origin master
+ 1450  git checkout -b Apartados12
+ 1451  git add Thermostat_Apartado_12.pdf 
+ 1452  git commit "Añado PDF con resolución escrita de Apartados 1 y 2"
+ 1453  git commit -m "Añado PDF con resolución escrita de Apartados 1 y 2"
+ 1454  git push origin Apartados12 
+ 1455  git checkout master
+ 1456  git merge Apartados12 
+ 1457  git push origin master
+ 1458  git checkout -b Apartado4
+ 1459  git add Thermostat/
+ 1460  git commit -m "Creo el proyecto Java y añado el ThermostatTest de JUnit"
+ 1461  git push origin Apartado4
+ 1462  git add Thermostat/
+ 1463  git commit -m "Test de Edge-Coverage. Apartado 4"
+ 1464  git push origin Apartado4
+ 1465  git checkout master
+ 1466  git merge Apartado
+ 1467  git merge Apartado4
+ 1468  git push origin master
+ 1469  git add -A
+ 1470  git branch
+ 1471  git checkout -b Apartado5
+ 1472  git add -A
+ 1473  git add Thermostat/src/Thermostat.java 
+ 1474  git commit -m "Creo el fichero de código"
+ 1475  git push origin Apartado5
+ 1476  git checkout Apartado4
+ 1477  git add Thermostat/src/ThermostatTest.java 
+ 1478  git commit -m "Corregido error en test"
+ 1479  git push origin master
+ 1480  git checkout master
+ 1481  git merge Apartado4
+ 1482  git push origin master
+ 1483  git checkout Apartado5
+ 1484  git add Thermostat/src/Thermostat.java 
+ 1485  git commit -m "Creados métodos up y down"
+ 1486  git add Thermostat/src/Thermostat.java 
+ 1487  git commit -m "Creado método advance"
+ 1488  git push origin Apartado5
+ 1489  git checkout master
+ 1490  git merge Apartado5
+ 1491  git push origin master
+ 1492  git add -A
+ 1493  git commit -m "Creados todos los métodos"
+ 1494  git push origin master
+ 1495  git push origin Apartado5
+ 1496  git checkout master
+ 1497  git merge Apartado5
+ 1498  git push origin master
+ 1499  git checkout Apartado5
+ 1500  git branch
+ 1501  git checkout Apartado4
+ 1502  git add Thermostat/src/*
+ 1503  git commit -m "Hago los métodos static y cambio el inicio de Sleep a Wake en Thermostat.java // En ThermostatTest.java corrijo errores de llamada a la clase y el primer test ya funciona. El segundo test aún está erróneo, lo voy a corregir ahora, pero lo he dejado para ver la diferencia en los cambios"
+ 1504  git push origin master
+ 1505  git add Thermostat/src/*
+ 1506  git commit -m "Todos los test funcionando"
+ 1507  git push origin master
+ 1508  cd ..
+ 1509  cd PRACTICA_FINAL/
+ 1510  ls
+ 1511  ls -a
+ 1512  git init
+ 1513  git remote add origin https://github.com/rodrigo-pacheco/Practica_Final_ISI.git
+ 1514  ls -a
+ 1515  git push -u origin master
+ 1516  ls -a
+ 1517  touch .travis.yml
+ 1518  gedit .travis.yml 
+ 1519  git add -A
+ 1520  git commit -m "Creación del proyecto"
+ 1521  git push origin-master
+ 1522  git push origin master
+ 1523  git rm *
+ 1524  git rm -r *
+ 1525  ls
+ 1526  ls -a
+ 1527  git rm -r *
+ 1528  cd ..
+ 1529  rm -r PRACTICA_FINAL/
+ 1530  s
+ 1531  ls -a
+ 1532  cd PRACTICA_FINAL/
+ 1533  ls
+ 1534  ls -a
+ 1535  rm -r -f .git
+ 1536  ls -a
+ 1537  git init
+ 1538  git remote add origin https://github.com/rodrigo-pacheco/Practica_Final_ISI.git
+ 1539  ls -a
+ 1540  rm -r -f *
+ 1541  ls -a
+ 1542  rm -r .metadata/
+ 1543  ls -a
+ 1544  rm -r .gitignore 
+ 1545  rm -r .git/
+ 1546  ls -a
+ 1547  git init
+ 1548  git remote add https://github.com/rodrigo-pacheco/Practica_Final_ISI.git
+ 1549  git remote add origin https://github.com/rodrigo-pacheco/Practica_Final_ISI.git
+ 1550  ls -a
+ 1551  git add -A
+ 1552  git commit -m "Creo el proyecto"
+ 1553  git push origin master
+ 1554  git add -
+ 1555  git add -A
+ 1556  git commit -m "pom modificado"
+ 1557  git add -A
+ 1558  git commit -m "Añado ficheros Main y PruebasMockito de ejercicio tema 7"
+ 1559  touch .travis.yml
+ 1560  gedit .travis.yml 
+ 1561  git add -A
+ 1562  git commit -m "Añado .travis.yml"
+ 1563  git push origin mster
+ 1564  git push origin master
+ 1565  git add pom.xml 
+ 1566  git commit -m "Duplico el pom.xml fuera para que lo vea Travis porque ahora mismo me da un error Buildfile: build.xml does not exist!"
+ 1567  git push origin master
+ 1568  history | grep remote
+ 1569  gedit .travis.yml 
+ 1570  git add -A
+ 1571  git commit -m "Cambio Travis"
+ 1572  git push origin master
+ 1573  git add pom.xml 
+ 1574  git add Practica_Final_ISI/pom.xml 
+ 1575  git commit -m "pom modificado"
+ 1576  git push origin master
+ 1577  git pull origin master
+ 1578  git add -A
+ 1579  git commit -m "Cambiado el pom"
+ 1580  git push origin master
+ 1581  history | grep ssh
+ 1582  ssh rpacheco@beta.aulas.gsyc.es
+ 1583  ssh rpacheco@beta.aulas.gsyc.urjc.es
+ 1584  cd ..
+ 1585  ls
+ 1586  cd ..
+ 1587  ls
+ 1588  git pull origin master
+ 1589  cd project_museums/
+ 1590  python3 manage.py runserver
+ 1591  python3 manage.py makemigrations
+ 1592  python3 manage.py migrtate
+ 1593  python3 manage.py migrate
+ 1594  python3 manage.py runserver
+ 1595  ls
+ 1596  python3 manage.py runserver
+ 1597  python3 manage.py makemigrations
+ 1598  python3 manage.py migrate
+ 1599  python3 manage.py runserver
+ 1600  python3 manage.py createsuperuser
+ 1601  python3 manage.py runserver
+ 1602  python3
+ 1603  python3 manage.py runserver
+ 1604  history | grep ssh
+ 1605  ssh rpacheco@beta.aulas.gsyc.es
+ 1606  ssh rpacheco@beta.aulas.gsyc.urjc.es
+ 1607  git init
+ 1608  git remote add origin https://github.com/rodrigo-pacheco/PFinalISI-rodrigo.git
+ 1609  git pull
+ 1610  git pull origin master
+ 1611  git status
+ 1612  git add -A
+ 1613  git checkout -b HTMLInterface
+ 1614  git add -A
+ 1615  git commit -m "Pruebo si interpreta HTML introduciendo un titulo"
+ 1616  git add -A
+ 1617  git commit -m "Añado también un párrafo"
+ 1618  git push origin HTMLInterface 
+ 1619  git checkout master
+ 1620  git merge HTMLInterface 
+ 1621  git push origin master
+ 1622  ls -a
+ 1623  touch .gitignore
+ 1624  gedit .gitignore 
+ 1625  git status
+ 1626  git add -A
+ 1627  git commit -m "Añado gitignore"
+ 1628  git push origin master
+ 1629  git branch
+ 1630  git checkout HTMLInterface 
+ 1631  git add -A
+ 1632  git commit -m "Pruebo hiperenlace en main")
+ 1633  git commit -m "Pruebo hiperenlace en main"
+ 1634  git checkout master
+ 1635  git merge HTMLInterface 
+ 1636  git branch
+ 1637  git push origin master
+ 1638  git status
+ 1639  git checkout HTMLInterface 
+ 1640  git status
+ 1641  git add -A
+ 1642  git commit -m "Completado el recurso / y los recursos GET de /actor y /film"
+ 1643  git checkout master
+ 1644  git merge HTMLInterface 
+ 1645  git checkout master
+ 1646  git push origin-master
+ 1647  git push origin master
+ 1648  gedit .travis.yml 
+ 1649  git add .travis.yml 
+ 1650  gedit .travis.yml 
+ 1651  git status
+ 1652  git checkout HTMLInterface 
+ 1653  git add -A
+ 1654  git commit -m "Añado enlace para volver a página inicial"
+ 1655  git add -A
+ 1656  git commit -m "Cambios menores (negrita y pequeños bugs)"
+ 1657  git branch
+ 1658  git add -A
+ 1659  git commit -m "HTML completo para /actor y /film. Faltaría /load"
+ 1660  git checkout master
+ 1661  git merge HTMLInterface 
+ 1662  git push origin master
+ 1663  git checkout -b Actor
+ 1664  git btanch
+ 1665  git branch
+ 1666  git add -A
+ 1667  git commit -m "Prueba para ver si se construye el grafo y para ver si se coge el actor con el POST"
+ 1668  git checkout master
+ 1669  git merge Actor 
+ 1670  git push origin master
+ 1671  git checkout Actor 
+ 1672  git add -A
+ 1673  git commit -m "Error al construir porque no encuentra la clase Graph. Muevo el archivo al mismo directorio en el que tengo el main.java"
+ 1674  git checkout master 
+ 1675  git push origin master
+ 1676  git merge Actor 
+ 1677  git push origin master
+ 1678  git checkout Actor 
+ 1679  git add -A
+ 1680  git commit -m "Añado el package al archivo Graph.java"
+ 1681  git checkout master 
+ 1682  git merge Actor 
+ 1683  git push origin master
+ 1684  ls
+ 1685  ls -a
+ 1686  git add CAPTURAS_ERRORES/
+ 1687  git commit -m "Creo directorio para almacenar errores que voy teniendo"
+ 1688  git checkout Actor 
+ 1689  git add -A
+ 1690  git commit -m "Añado todos los archivos de código porque se interrelacionan entre ellos"
+ 1691  git add -A
+ 1692  git commit -m "Añado el package a todos los archivos"
+ 1693  git checkout master
+ 1694  git merge Actor 
+ 1695  git push origin master
+ 1696  git checkout Actor 
+ 1697  git add -A
+ 1698  git -m "Creación de grafo y búsqueda de actor"
+ 1699  git commit -m "Creación de grafo y búsqueda de actor"
+ 1700  git checkout master
+ 1701  git merge Actor 
+ 1702  git push origin master
+ 1703  git checkout Actor 
+ 1704  git add -A
+ 1705  git commit -m "Quito el ptivate a st en Graph.class porque si no no se puede acceder a él. Captura de error 1"
+ 1706  git checkout master 
+ 1707  git add -A
+ 1708  git commit -m "Añado Captura de error 1"
+ 1709  git merge Actor 
+ 1710  ls -a
+ 1711  ls CAPTURAS_ERRORES/
+ 1712  git push origin master
+ 1713  git checkout Actor 
+ 1714  git add -A
+ 1715  git commit -m "Cambio Actor por actor en línea 15 porque no detecta el formulario"
+ 1716  git checkout master 
+ 1717  git merge Actor 
+ 1718  git push origin master
+ 1719  git checkout Actor 
+ 1720  git add src/main/java/urjc/isi/PFinalISI/Main.java 
+ 1721  git commit -m "Añado la captura de excepción que salta si el actor que busco no está en el carchivo (Captura 2)"
+ 1722  git checkout master 
+ 1723  git add -A
+ 1724  git commit -m "Añado imágenes de actor funcionando y de actor fallando"
+ 1725  git merge Actor 
+ 1726  git push origin master
+ 1727  git branch
+ 1728  git checkout -b DDBB
+ 1729  git add -A
+ 1730  git commit -m "Añado código de jdbc-spark-example. Sigo los pasos del email para postgresql. Dependencia postgresql añadida"
+ 1731  git add -A
+ 1732  git commit -m "Añadido método inser de jdbc-spark-example y dependencias. Iniciado postgresql en heroku"
+ 1733  git checkout master
+ 1734  git merge DDBB 
+ 1735  git push origin master
+ 1736  git add -A
+ 1737  git commit -m "Problema con la dependencia postgresql (Captura de error 3). Pom cambiado"
+ 1738  git push origin master
+ 1739  git checkout DDBB 
+ 1740  git add -A
+ 1741  git commit -m "He cambiado mi LoadDDBB porque el que tenía antes era para subir un archivo, yo quiero leer un archivo propio ya en posesión"
+ 1742  git push origin master
+ 1743  git checkout DDBB 
+ 1744  git add -A
+ 1745  git commit -m "Añado trazas para ver el error en loadDDBB"
+ 1746  git push origin master
+ 1747  git checkout DDBB 
+ 1748  cat pom.xml 
+ 1749  git branch
+ 1750  git status
+ 1751  git add pom.xml 
+ 1752  git commit -m "Añado pom de nuevo porque se ha ido la modifiacaicón"
+ 1753  git add -A
+ 1754  git commit -m "Ha habido un error en Git y he tenido que volver a hacer los cambios para que en lugar de leer de un fichero  que se envíe con POST y crear la BBDD como en el ejemplo se cargue desde un archivo en posesión"
+ 1755  git add -A
+ 1756  git commit -m "Añado trazas para ver dónde está el posible error"
+ 1757  git checkout master
+ 1758  git merge DDBB 
+ 1759  git merge -s recursive -X theirs DDBB 
+ 1760  git merge --strategy-option theirs
+ 1761  git status
+ 1762  cat pom.xml 
+ 1763  git status
+ 1764  git checkout --theirs pom.xml
+ 1765  git checkout --theirs src/main/java/urjc/isi/PFinalISI/Main.java
+ 1766  git checkout --theirs target/classes/urjc/isi/PFinalISI/Main.class
+ 1767  git merge DDBB
+ 1768  git add -A
+ 1769  git merge
+ 1770  git merge DDBB 
+ 1771  git commit -m "Comitteo para merge"
+ 1772  git merge DDBB 
+ 1773  git status
+ 1774  git push origin master
+ 1775  git checkout DDBB 
+ 1776  git add -A
+ 1777  git commit -m "Quito trazas y modifico nombre de la tabla"
+ 1778  git checkout master
+ 1779  git merge DDBB
+ 1780  git push origin master
+ 1781  git branch
+ 1782  git checkout DDBB 
+ 1783  git add -A
+ 1784  git commit -m "minor changes, DDBB created correctly"
+ 1785  git checkout master
+ 1786  git merge DDBB
+ 1787  git push origin master
+ 1788  git checkout -b Film
+ 1789  git add -A
+ 1790  git commit -m "Añado el código y lo customizo para hacer Select de la película introducida"
+ 1791  git checkout master
+ 1792  git merge F
+ 1793  git merge Film 
+ 1794  git push origin master
+ 1795  git add -A
+ 1796  git commit -m "Añado caputa de error 4 sobre el try en doSearchFilm"
+ 1797  git checkout Film 
+ 1798  gir add -A
+ 1799  git add -a
+ 1800  git add -A
+ 1801  git commit -m "Resuelto el problema con el try. Esperemos que no haya problemas en Travis ahora"
+ 1802  git checkout master
+ 1803  git merge Film 
+ 1804  git push origin master
+ 1805  git add -A
+ 1806  git commit -m "Añado capturas del comportamiendo actual del programa. Hay que mejorar la presentación de la búsqueda correcta y detectar la búsqueda incorrecta"
+ 1807  git checkout Film 
+ 1808  ls CAPTURAS_ERRORES/
+ 1809  git checkout master
+ 1810  ls CAPTURAS_ERRORES/
+ 1811  git checkout Film 
+ 1812  git add -A
+ 1813  git commit -m "Incluidos cambios en la presentación de los actores de las películas"
+ 1814  git checkout master
+ 1815  git merge Film 
+ 1816  git push origin master
+ 1817  git checkout Film 
+ 1818  git add -A
+ 1819  git commit -m "Mejorada la presentación"
+ 1820  git checkout master
+ 1821  git merge Film 
+ 1822  git push origin master
+ 1823  git add -A
+ 1824  git commit -m "Faltaba por cerrar el else } "
+ 1825  git push origin master
+ 1826  git add -A
+ 1827  git commit -m "Mejoro los links de retorno"
+ 1828  git push origin master
+ 1829  git checkout DDBB 
+ 1830  git add -A
+ 1831  git status
+ 1832  git commit -m "Añado trazas porque hay fallos al cargar la BBDD"
+ 1833  git push origin master
+ 1834  git add -A
+ 1835  git commit -m "Nueva traza"
+ 1836  git push origin master
+ 1837  git add -A
+ 1838  git commit -m "Más trazas dentro del try"
+ 1839  git push origin master
+ 1840  git add -A
+ 1841  git commit -m "Por trazas he detectado que el problema aparece en 'create table films' (linea 146). Pongo un capturador general de excepciones para ver qué pasa"
+ 1842  git push origin master
+ 1843  git add -A
+ 1844  git commit -m "Añado captura 5 que justifica que el error está en la línea 146"
+ 1845  git add -A
+ 1846  git commit -m "Error detectado. Se adjunta Captura número 6. El problema en la línea 146 es que string no existe en PSQL. Pruebo con text"
+ 1847  git add -A
+ 1848  git commit -m "Cambiado el tipo de film y actor en la tabla films de string a text"
+ 1849  git push origin master
+ 1850  git add -A
+ 1851  git commit -m "Error resuelto, parece funcionar correctamente. Trazas quitadas. Voy a probar con el archivo grande (movies.txt)"
+ 1852  git checkout DDBB 
+ 1853  git checkout master
+ 1854  git merge DDBB
+ 1855  git checkout DDBB
+ 1856  git checkout master
+ 1857  git status
+ 1858  git pull origin master
+ 1859  git status
+ 1860  git add -A
+ 1861  git commit -m "Cambio fichero para DDBB de TinyMovies a movies"
+ 1862  git push origin master
+ 1863  git add -A
+ 1864  git commit -m "La carga de la BBDD no es exitosa (captura 7) y puedo apreciar en los logs de heroku que se ha procesado hasta la película 'Me and You and Everyone We Know (2005)'"
+ 1865  cd Documentacion_Proporcionada/
+ 1866  ls
+ 1867  cd resources/
+ 1868  ls
+ 1869  cd data/
+ 1870  ls
+ 1871  cd other-data/
+ 1872  ls
+ 1873  head n2 tinyMovies.txt 
+ 1874  head -n2 tinyMovies.txt 
+ 1875  head -n1 tinyMovies.txt 
+ 1876  head -n2000 movies.txt > shortenedMovies.txt
+ 1877  cd .. .. .. .. 
+ 1878  cd ..
+ 1879  git add -A
+ 1880  git commit -m "Pruebo a acortar el fichero movies.txt a shortenedMovies.txt por recomendacion de mis compañeros, para eso ejecuto head -n2000 movies.txt > shortenedMovies.txt
+ 1881  para quedarme con las 2000 primeras lineas"
+ 1882  git add -A
+ 1883  git commit -m "Cambio el fichero para cargar la base de datos de movies a shoretenedMovies. Me he quedado con 2000 lineas porque el error anterior me salto en la 2385, por lo que he dado un margen de 385 líneas para evitar errores"
+ 1884  git push origin master
+ 1885  git add -A
+ 1886  git commit -m "Ejecuto de nuevo y sigue sin funcionar. En este caso, y tal y como muestran los logs (captura 9) se queda en la línea 1744. Voy a acortar el fichero a 850 líneas para evitar cualquier posible error. Esto es un problema ajeno a mí, puesto que es Heroku el que está dando el fallo porque después de un tiempo deja de ejecutar para no copar la memoria de sus ordenadores"
+ 1887  git add -A
+ 1888  git commit -m "Captura 11 añadida en la que se muestra la línea hasta la que procesa"
+ 1889  cd Documentacion_Proporcionada/resources/data/other-data/
+ 1890  head -n2000 movies.txt > shortenedMovies.txt
+ 1891  head -n850 shortenedMovies.txt > shortenedMovies.txt
+ 1892  head -n850 movies.txt > shortenedMovies.txt
+ 1893  git add -A
+ 1894  git commit -m "Ejecutado head -n850 movies.txt > shortenedMovies.txt para dejar únicamente 850 líneas e intentar así que Heroku falle por timeout"
+ 1895  git push origin master
+ 1896  head -n150 movies.txt > shortenedMovies.txt
+ 1897  git add -A
+ 1898  git commit -m "Sigue sin funcionar. Ejecuto head -n150 movies.txt > shortenedMovies.txtpara limitar a 150 líneas y esperar que así funcione"
+ 1899  git push origin master
+ 1900  git add -A
+ 1901  cd ..
+ 1902  git commit -m "Parece que funciona con este archivo. Cambiado también para que el graph de SearchActor se construya con shortenedMovies .Añadidos ejemplos de películas y actores que se pueden buscar" 
+ 1903  git push origin master
+ 1904  touch README
+ 1905  gedit README 
+ 1906  git add -A
+ 1907  git commit -m "Añado README explicativo"
+ 1908  git push origin master
+ 1909  history | grep ssh
+ 1910  ssh rpacheco@beta.aulas.gsyc.urjc.es
+ 1911  ssh rpacheco@delta.aulas.gsyc.urjc.es
+ 1912  git checkout -b Graph
+ 1913  git add -b Grafos_PFinal_ISI.pdf 
+ 1914  git add Grafos_PFinal_ISI.pdf 
+ 1915  git commit -m "Grafo del programa para la creación de tests"
+ 1916  git checkout master 
+ 1917  git merge Graph 
+ 1918  git push origin master
+ 1919  git checkout -b Tests
+ 1920  cd src/test/java/urjc/isi/PFinalISI/
+ 1921  cat MockitoTests.java > AllAboutFilmsTests.java
+ 1922  cat AllAboutFilmsTests.java 
+ 1923  rm MockitoTests.java 
+ 1924  ls -a
+ 1925  cd ..
+ 1926  cd PFinalISI/
+ 1927  git branch
+ 1928  git add -A
+ 1929  git commit -m "Elimino el fichero MockitoTest (utilizado para lanzar la app en Travis y Heroku) y creo el archivo AllAboutFilmsTest.java, donde incluiré los test de mi software"
+ 1930  git add -A
+ 1931  git commit -m "Primer test para LoadDDBB. No funciona porque no creo correctamente el request y el response"
+ 1932  git add -A
+ 1933  git commit -m "Ahora funciona el test pero no da lo esperado"
+ 1934  git add -A
+ 1935  git commit -m "Primer test up and running. Lo pusheo para comprobar que Travis los pasa"
+ 1936  git checkout master
+ 1937  git merge Tests 
+ 1938  git push origin master
+ 1939  git checkout Tests 
+ 1940  git checkout master
+ 1941  git add pom.xml 
+ 1942  git commit -m "He detectado que Travis no ejecutaba el test, por lo que he buscado y encontrado que el pom, en la línea 86 aún conservaba la dirección a Mockito. La he cambiado a PFinalISI a ver si funciona"
+ 1943  git push origin master
+ 1944  git branch
+ 1945  git checkout Tests
+ 1946  git add -A
+ 1947  git commit -m "Test de doSearchFilm y doSearchActor"
+ 1948  git add -A
+ 1949  git commit -m "Tests hechos. La mayoría de las opciones son HappyPaths que se pueden probar con el propio uso de la aplicación"
+ 1950  git checkout master
+ 1951  git merge Tests 
+ 1952  git push origin master
+ 1953  git branch
+ 1954  git merge *
+ 1955  git status
+ 1956  git checkout Tests 
+ 1957  git status
+ 1958  git push origin Tests 
+ 1959  git branch
+ 1960  git push origin Actor 
+ 1961  git branch
+ 1962  git checkout master 
+ 1963  git push origin DDBB
+ 1964  git checkout master 
+ 1965  git branch
+ 1966  git push origin F
+ 1967  git push origin Film 
+ 1968  git branch
+ 1969  git push origin GR
+ 1970  git push origin Graph 
+ 1971  git branch
+ 1972  git add -A
+ 1973  git commit -m "Commit a la rama master para que se lance travis"
+ 1974  git add -A
+ 1975  git commit -m "Commit a la rama master para que se lance travis"
+ 1976  git push origin master
+ 1977  sudo apt install simplescreenrecorder
+ 1978  sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+ 1979  sudo apt update
+ 1980  sudo apt install simplescreenrecorder
+ 1981  sudo apt-get install ubuntu-restricted-extras
+ 1982  ls -a
+ 1983  cd X-Serv-Practica-Museos/
+ 1984  ls -a
+ 1985  git pull origin master
+ 1986  sudo apt-get install vlc
+ 1987  ls
+ 1988  cd project_museums/
+ 1989  ls
+ 1990  python3 manage.py runserver
+ 1991  python3 manage.py makemigrations
+ 1992  python3 manage.py migrate
+ 1993  python3 manage.py runserver
+ 1994  python3 manage.py createsuperuser
+ 1995  python3 manage.py runserver
+ 1996  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+ 1997  sudo echo hola
+ 1998  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+ 1999  sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable lsb_release -cs main" > /etc/apt/sources.list.d/gazebo-stable.list'
+ 2000  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key 67170598AF249743
+ 2001  sudo apt-get install ros-kinetic-desktop-full
+ 2002  sudo apt-get install gazebo7
+ 2003  gazebo
+ 2004  sudo apt-get install ros-kinetic-desktop-full
+ 2005  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+ 2006  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+ 2007  sudo apt-add-repository "deb http://zeroc.com/download/apt/ubuntu$(lsb_release -rs) stable main"
+ 2008  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 5E6DA83306132997
+ 2009  sudo sh -c 'cat<<EOF>/etc/apt/sources.list.d/jderobot.list
+deb [arch=amd64] http://jderobot.org/apt xenial main
+EOF'
+ 2010  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 24E521A4
+ 2011  sudo apt update
+ 2012  sudo apt install jderobot
+ 2013  sudo apt-get install ros-kinetic-desktop-full
+ 2014  ls
+ 2015  cd Documentos/
+ 2016  cd DG_ITT_IAA/TFG\ DRONES/
+ 2017  ls
+ 2018  history > installation_log.txt
