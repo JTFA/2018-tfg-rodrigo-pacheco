@@ -1,0 +1,272 @@
+rodrigo:~$ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+[sudo] password for rodrigo: 
+rodrigo:~$ sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+Executing: /tmp/tmp.tR98TomExX/gpg.1.sh --keyserver
+hkp://ha.pool.sks-keyservers.net:80
+--recv-key
+421C365BD9FF1F717815A3895523BAEEB01FA116
+gpg: solicitando clave B01FA116 de hkp servidor ha.pool.sks-keyservers.net
+gpg: clave B01FA116: «ROS Builder <rosbuild@ros.org>» sin cambios
+gpg: Cantidad total procesada: 1
+gpg:              sin cambios: 1
+rodrigo:~$ sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
+rodrigo:~$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key 67170598AF249743
+Executing: /tmp/tmp.kZBNbzEHrN/gpg.1.sh --keyserver
+keyserver.ubuntu.com
+--recv-key
+67170598AF249743
+gpg: solicitando clave AF249743 de hkp servidor keyserver.ubuntu.com
+gpg: clave AF249743: «OSRF Repository (OSRF Repository GPG key) <osrfbuild@osrfoundation.org>» sin cambios
+gpg: Cantidad total procesada: 1
+gpg:              sin cambios: 1
+rodrigo:~$ sudo apt-add-repository "deb http://zeroc.com/download/apt/ubuntu$(lsb_release -rs) stable main"
+rodrigo:~$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 5E6DA83306132997
+Executing: /tmp/tmp.cNcwtraVSY/gpg.1.sh --keyserver
+keyserver.ubuntu.com
+--recv
+5E6DA83306132997
+gpg: solicitando clave 06132997 de hkp servidor keyserver.ubuntu.com
+gpg: clave 06132997: «ZeroC, Inc. (release key) <support@zeroc.com>» sin cambios
+gpg: Cantidad total procesada: 1
+gpg:              sin cambios: 1
+rodrigo:~$ cat /etc/apt/sources.list.d
+cat: /etc/apt/sources.list.d: Es un directorio
+rodrigo:~$ ls /etc/apt/
+apt.conf.d     sources.list~             sources.list.save  trusted.gpg.d
+preferences.d  sources.list.d            trusted.gpg
+sources.list   sources.list.distUpgrade  trusted.gpg~
+rodrigo:~$ ls /etc/apt/sources.list.d
+gazebo-latest.list
+gazebo-latest.list.distUpgrade
+gazebo-latest.list.save
+gazebo-stable.list
+gazebo-stable.list.save
+google-chrome.list
+google-chrome.list.distUpgrade
+google-chrome.list.save
+heroku.list
+heroku.list.save
+jderobot.list
+jderobot.list.save
+maarten-baert-ubuntu-simplescreenrecorder-xenial.list
+maarten-baert-ubuntu-simplescreenrecorder-xenial.list.save
+osmoma-ubuntu-audio-recorder-xenial.list
+osmoma-ubuntu-audio-recorder-xenial.list.save
+pi-rho-security-trusty.list
+pi-rho-security-trusty.list.distUpgrade
+pi-rho-security-trusty.list.save
+ros-latest.list
+ros-latest.list.save
+ubuntu-on-rails-ppa-trusty.list
+ubuntu-on-rails-ppa-trusty.list.distUpgrade
+ubuntu-on-rails-ppa-trusty.list.save
+v-launchpad-jochen-sprickerhof-de-pcl-trusty.list
+v-launchpad-jochen-sprickerhof-de-pcl-trusty.list.distUpgrade
+v-launchpad-jochen-sprickerhof-de-pcl-trusty.list.save
+webupd8team-atom-trusty.list
+webupd8team-atom-trusty.list.distUpgrade
+webupd8team-atom-trusty.list.save
+webupd8team-ubuntu-atom-xenial.list
+webupd8team-ubuntu-atom-xenial.list.save
+webupd8team-ubuntu-java-xenial.list
+webupd8team-ubuntu-java-xenial.list.save
+rodrigo:~$ sudo sh -c 'cat<<EOF>/etc/apt/sources.list.d/jderobot.list
+> # for ubuntu 16.04 LTS (64 bit)
+> 
+> deb [arch=amd64] http://jderobot.org/apt xenial main
+> EOF'
+rodrigo:~$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 24E521A4
+Executing: /tmp/tmp.mjS7R591u2/gpg.1.sh --keyserver
+keyserver.ubuntu.com
+--recv
+24E521A4
+gpg: solicitando clave 24E521A4 de hkp servidor keyserver.ubuntu.com
+gpg: clave 24E521A4: «Francisco Perez <f.perez475@gmail.com>» sin cambios
+gpg: Cantidad total procesada: 1
+gpg:              sin cambios: 1
+rodrigo:~$ sudo apt update
+Obj:1 http://jderobot.org/apt xenial InRelease
+Des:2 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]     
+Obj:3 http://es.archive.ubuntu.com/ubuntu xenial InRelease                     
+Des:4 http://es.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]    
+Obj:5 http://ppa.launchpad.net/maarten-baert/simplescreenrecorder/ubuntu xenial InRelease
+Ign:6 http://ppa.launchpad.net/osmoma/audio-recorder/ubuntu xenial InRelease   
+Des:7 http://es.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]  
+Obj:9 http://ppa.launchpad.net/webupd8team/atom/ubuntu xenial InRelease        
+Obj:10 https://cli-assets.heroku.com/apt ./ InRelease                          
+Obj:11 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease       
+Obj:8 http://zeroc.com/download/apt/ubuntu16.04 stable InRelease               
+Err:12 http://ppa.launchpad.net/osmoma/audio-recorder/ubuntu xenial Release    
+  404  Not Found
+Des:13 http://packages.osrfoundation.org/gazebo/ubuntu-stable xenial InRelease [4.261 B]
+Obj:14 http://packages.ros.org/ros/ubuntu xenial InRelease                     
+Des:15 http://packages.osrfoundation.org/gazebo/ubuntu-stable xenial/main amd64 Packages [25,2 kB]
+Des:16 http://packages.osrfoundation.org/gazebo/ubuntu-stable xenial/main i386 Packages [17,5 kB]
+Leyendo lista de paquetes... Hecho  
+E: El repositorio «http://ppa.launchpad.net/osmoma/audio-recorder/ubuntu xenial Release» no tiene un fichero de Publicación.
+N: No se puede actualizar de un repositorio como este de forma segura y por tanto está deshabilitado por omisión.
+N: Vea la página de manual apt-secure(8) para los detalles sobre la creación de repositorios y la configuración de usuarios.
+rodrigo:~$ sudo apt install jderobot
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias       
+Leyendo la información de estado... Hecho
+jderobot ya está en su versión más reciente (5.6.6).
+Los paquetes indicados a continuación se instalaron de forma automática y ya no son necesarios.
+  libllvm4.0 libllvm4.0:i386 libllvm5.0:i386 libqmi-glib1 libqpdf17
+Utilice «sudo apt autoremove» para eliminarlos.
+0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 386 no actualizados.
+13 no instalados del todo o eliminados.
+Se utilizarán 0 B de espacio de disco adicional después de esta operación.
+¿Desea continuar? [S/n] 
+Configurando jderobot-zeroc-ice-python (5.6.6) ...
+Traceback (most recent call last):
+  File "/usr/bin/pip2", line 9, in <module>
+    load_entry_point('pip==8.1.1', 'console_scripts', 'pip2')()
+  File "/usr/local/lib/python3.5/dist-packages/pkg_resources/__init__.py", line 570, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/usr/local/lib/python3.5/dist-packages/pkg_resources/__init__.py", line 2750, in load_entry_point
+    raise ImportError("Entry point %r not found" % ((group, name),))
+ImportError: Entry point ('console_scripts', 'pip2') not found
+Traceback (most recent call last):
+  File "/usr/bin/pip2", line 9, in <module>
+    load_entry_point('pip==8.1.1', 'console_scripts', 'pip2')()
+  File "/usr/local/lib/python3.5/dist-packages/pkg_resources/__init__.py", line 570, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/usr/local/lib/python3.5/dist-packages/pkg_resources/__init__.py", line 2750, in load_entry_point
+    raise ImportError("Entry point %r not found" % ((group, name),))
+ImportError: Entry point ('console_scripts', 'pip2') not found
+Traceback (most recent call last):
+  File "/usr/bin/pip2", line 9, in <module>
+    load_entry_point('pip==8.1.1', 'console_scripts', 'pip2')()
+  File "/usr/local/lib/python3.5/dist-packages/pkg_resources/__init__.py", line 570, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/usr/local/lib/python3.5/dist-packages/pkg_resources/__init__.py", line 2750, in load_entry_point
+    raise ImportError("Entry point %r not found" % ((group, name),))
+ImportError: Entry point ('console_scripts', 'pip2') not found
+dpkg: error al procesar el paquete jderobot-zeroc-ice-python (--configure):
+ el subproceso instalado el script post-installation devolvió el código de salida de error 1
+dpkg: problemas de dependencias impiden la configuración de jderobot-comm-python:
+ jderobot-comm-python depende de jderobot-zeroc-ice-python; sin embargo:
+ El paquete `jderobot-zeroc-ice-python' no está configurado todavía.
+  El paquete `jderobot-zeroc-ice-python' que provee `jderobot-zeroc-ice-python' aún no está configurado.
+
+dpkg: error al procesar el paquete jderobot-comm-python (--configure):
+ problemas de dependencias - se deja sin configurar
+dpkg: problemas de dependencias impiden la configuración de jderobot-easyice-python:
+ jderobot-easyice-python depende de jderobot-zeroc-ice-python; sin embargo:
+ El paquete `jderobot-zeroc-ice-python' no está configurado todavía.
+  El paquete `jderobot-zeroc-ice-python' que provee `jderobot-zeroc-ice-python' aún no está configurado.
+
+dpkg: error al procesar el paquete jderobot-easyice-python (--configure):
+ problemas de dependencias - se deja sin configurar
+dpkg: problemas de dependencias impiden la configuración de jderobot-colortuner-pythNo se escribió un informe «apport» porque el mensaje de error indica que es un mensaje de error asociado a un fallo previo.
+                                               No se escribió un informe «apport» porque el mensaje de error indica que es un mensaje de error asociado a un fallo previo.
+          No se escribió ningún informe «apport» porque ya se ha alcanzado el valor de «MaxReports»
+                   No se escribió ningún informe «apport» porque ya se ha alcanzado el valor de «MaxReports»
+                            No se escribió ningún informe «apport» porque ya se ha alcanzado el valor de «MaxReports»
+                                     on:
+ jderobot-colortuner-python depende de jderobot-comm-python; sin embargo:
+ El paquete `jderobot-comm-python' no está configurado todavía.
+ jderobot-colortuner-python depende de jderobot-easyice-python; sin embargo:
+ El paquete `jderobot-easyice-python' no está configurado todavía.
+
+dpkg: error al procesar el paquete jderobot-colortuner-python (--configure):
+ problemas de dependencias - se deja sin configurar
+dpkg: problemas de dependencias impiden la configuración de jderobot-pantiltteleop-python:
+ jderobot-pantiltteleop-python depende de jderobot-comm-python; sin embargo:
+ El paquete `jderobot-comm-python' no está configurado todavía.
+
+dpkg: error al procesar el paquete jderobot-pantiltteleop-python (--configure):
+ problemas de dependencias - se deja sin configurar
+dpkg: problemas de dependencias impiden la configuración de jderobot-parallelice-python:
+ jderobot-parallelice-python depende de jderobot-zeroc-ice-python; sin embargo:
+ El paquete `jderobot-zeroc-ice-python' no está cNo se escribió ningún informe «apport» porque ya se ha alcanzado el valor de «MaxReports»
+                                                          No se escribió ningún informe «apport» porque ya se ha alcanzado el valor de «MaxReports»
+                                                                   onfigurado todavía.
+  El paquete `jderobot-zeroc-ice-python' que provee `jderobot-zeroc-ice-python' aún no está configurado.
+
+dpkg: error al procesar el paquete jderobot-parallelice-python (--configure):
+ problemas de dependencias - se deja sin configurar
+dpkg: problemas de dependencias impiden la configuración de jderobot-uav-viewer-python:
+ jderobot-uav-viewer-python depende de jderobot-parallelice-python; sin embargo:
+ El paquete `jderobot-parallelice-python' no está configurado todavía.
+ jderobot-uav-viewer-python depende de jderobot-easyice-python; sin embargo:
+ El paquete `jderobot-easyice-python' no está configurado todavía.
+
+dpkg: error al procesar el paquete jderobot-uav-viewer-python (--configure):
+ problemas de dependencias - se deja sin configurar
+dpkg: problemas de dependencias impiden la configuración de jderobot-visualstates-python:
+ jderobot-visualstates-python depende de jderobot-comm-python; sin embargo:
+ El paquete `jderobot-comm-python' no está configurado todavíaNo se escribió ningún informe «apport» porque ya se ha alcanzado el valor de «MaxReports»
+                                                                       .
+
+dpkg: error al procesar el paquete jderobot-visualstates-python (--configure):
+ problemas de dependencias - se deja sin configurar
+dpkg: problemas de dependencias impiden la configuración de jderobot-tools:
+ jderobot-tools depende de jderobot-colortuner-python; sin embargo:
+ El paquete `jderobot-colortuner-python' no está configurado todavía.
+ jderobot-tools depende de jderobot-pantiltteleop-python; sin embargo:
+ El paquete `jderobot-pantiltteleop-python' no está configurado todavía.
+ jderobot-tools depende de jderobot-uav-viewer-python; sin embargo:
+ El paquete `jderobot-uav-viewer-python' no está configurado todavía.
+ jderobot-tools depende de jderobot-visualstates-python; sin embargo:
+ El paquete `jderobot-visualstates-python' no está configurado todavía.
+
+dpkg: error al procesar el paquete jderobot-tools (--configure):
+ problemas de dependencias - se deja sin configurar
+dpkg: problemas de dependencias impiden la configuración de jderobot-libs:
+ jderobot-libs depende de jderobot-easyice-python; sin embargo:
+ El paquete `jderobot-easyice-python' no está configurado todavía.
+ jderobot-libs depende de jderobot-comm-python; sin embargo:
+ El paquete `jderobot-comm-python' no está configurado todavía.
+ jderobot-libs depende de jderobot-parallelice-python; sin embargo:
+ El paquete `jderobot-parallelice-python' no está configurado todavía.
+
+dpkg: error al procesar el paquete jderobot-libs (--configure):
+ problemas de dependencias - se deja sin configurar
+No se escribió ningún informe «apport» porque ya se ha alcanzado el valor de «MaxReports»
+         dpkg: problemas de dependencias impiden la configuración de jderobot-basic-component-python:
+ jderobot-basic-component-python depende de jderobot-comm-python; sin embargo:
+ El paquete `jderobot-comm-python' no está configurado todavía.
+
+dpkg: error al procesar el paquete jderobot-basic-component-python (--configure):
+ problemas de dependencias - se deja sin configurar
+No se escribió ningún informe «apport» porque ya se ha alcanzado el valor de «MaxReports»
+         dpkg: problemas de dependencias impiden la configuración de jderobot-examples:
+ jderobot-examples depende de jderobot-basic-component-python; sin embargo:
+ El paquete `jderobot-basic-component-python' no está configurado todavía.
+
+dpkg: error al procesar el paquete jderobot-examples (--configure):
+ problemas de dependencias - se deja sin configurar
+No se escribió ningún informe «apport» porque ya se ha alcanzado el valor de «MaxReports»
+         dpkg: problemas de dependencias impiden la configuración de jderobot:
+ jderobot depende de jderobot-tools; sin embargo:
+ El paquete `jderobot-tools' no está configurado todavía.
+  El paquete `jderobot-tools' que provee `jderobot-tools' aún no está configurado.
+ jderobot depende de jderobot-libs; sin embargo:
+ El paquete `jderobot-libs' no está configurado todavía.
+  El paquete `jderobot-libs' que provee `jderobot-libs' aún no está configurado.
+ jderobot depende de jderobot-examples; sin embargo:
+ El paquete `jderobot-examples' no está configurado todavía.
+  El paquete `jderobot-examples' que provee `jderobot-examples' aún no está configurado.
+
+dpkg: error al procesar el paquete jderobot (--configure):
+ problemas de dependencias - se deja sin configurar
+No se escribió ningún informe «apport» porque ya se ha alcanzado el valor de «MaxReports»
+         Se encontraron errores al procesar:
+ jderobot-zeroc-ice-python
+ jderobot-comm-python
+ jderobot-easyice-python
+ jderobot-colortuner-python
+ jderobot-pantiltteleop-python
+ jderobot-parallelice-python
+ jderobot-uav-viewer-python
+ jderobot-visualstates-python
+ jderobot-tools
+ jderobot-libs
+ jderobot-basic-component-python
+ jderobot-examples
+ jderobot
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+rodrigo:~$ 
+
