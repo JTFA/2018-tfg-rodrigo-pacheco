@@ -1,0 +1,32 @@
+# INSTALLATION COMMANDS:
+
+# Install MavROS (https://dev.px4.io/en/ros/mavros_installation.html)
+    sudo apt-get install ros-kinetic-mavros ros-kinetic-mavros-extras
+    
+# Install geographiclib (https://dev.px4.io/en/ros/mavros_installation.html)
+    wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+    chmod +x install_geographiclib_datasets.sh
+    ./install_geographiclib_datasets.sh
+    
+# Intsall PX4 for Gazebo (https://dev.px4.io/en/setup/dev_env_linux.html - jMAVSim/Gazebo Simulation - https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim.sh
+    Copy and paste content of web to .sh file
+    Run script (takes quite some time, as it does many things) - ./ubuntu_sim.sh 
+
+# Install Gazebo for ROS (https://dev.px4.io/en/setup/dev_env_linux.html - https://raw.githubusercontent.com/PX4/Devguide/master/build_scripts/ubuntu_sim_ros_gazebo.sh)
+    Copy and paste content from URL to .sh file
+    Run script (takes quite some time, as it does many things) - ./ubuntu_sim_ros_gazebo.sh
+    
+# Install rospkg, defusedxml, netifaces, 
+    sudo pip install -U rospkg
+    sudo apt-get install python-defusedxml
+    pip install --user defusedxml
+    pip install --user netifaces
+
+
+ 
+
+    
+
+
+
+    
