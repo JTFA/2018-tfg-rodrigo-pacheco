@@ -1,0 +1,161 @@
+header: 
+  seq: 361
+  stamp: 
+    secs: 1551133664
+    nsecs: 269034847
+  frame_id: ''
+status: 
+  - 
+    level: 1
+    name: "mavros: FCU connection"
+    message: "not connected"
+    hardware_id: "udp://:14540@127.0.0.1:14557"
+    values: 
+      - 
+        key: "Received packets:"
+        value: "0"
+      - 
+        key: "Dropped packets:"
+        value: "0"
+      - 
+        key: "Buffer overruns:"
+        value: "0"
+      - 
+        key: "Parse errors:"
+        value: "0"
+      - 
+        key: "Rx sequence number:"
+        value: "0"
+      - 
+        key: "Tx sequence number:"
+        value: "218"
+      - 
+        key: "Rx total bytes:"
+        value: "0"
+      - 
+        key: "Tx total bytes:"
+        value: "149239"
+      - 
+        key: "Rx speed:"
+        value: "0.000000"
+      - 
+        key: "Tx speed:"
+        value: "320.000000"
+  - 
+    level: 2
+    name: "mavros: GPS"
+    message: "No satellites"
+    hardware_id: "udp://:14540@127.0.0.1:14557"
+    values: 
+      - 
+        key: "Satellites visible"
+        value: "0"
+      - 
+        key: "Fix type"
+        value: "0"
+      - 
+        key: "EPH (m)"
+        value: "Unknown"
+      - 
+        key: "EPV (m)"
+        value: "Unknown"
+  - 
+    level: 2
+    name: "mavros: Heartbeat"
+    message: "No events recorded."
+    hardware_id: "udp://:14540@127.0.0.1:14557"
+    values: 
+      - 
+        key: "Heartbeats since startup"
+        value: "0"
+      - 
+        key: "Frequency (Hz)"
+        value: "0.000000"
+      - 
+        key: "Vehicle type"
+        value: "Generic micro air vehicle"
+      - 
+        key: "Autopilot type"
+        value: "Generic autopilot"
+      - 
+        key: "Mode"
+        value: ''
+      - 
+        key: "System status"
+        value: "Uninit"
+  - 
+    level: 0
+    name: "mavros: System"
+    message: "Normal"
+    hardware_id: "udp://:14540@127.0.0.1:14557"
+    values: 
+      - 
+        key: "Sensor present"
+        value: "0x00000000"
+      - 
+        key: "Sensor enabled"
+        value: "0x00000000"
+      - 
+        key: "Sensor helth"
+        value: "0x00000000"
+      - 
+        key: "CPU Load (%)"
+        value: "0.0"
+      - 
+        key: "Drop rate (%)"
+        value: "0.0"
+      - 
+        key: "Errors comm"
+        value: "0"
+      - 
+        key: "Errors count #1"
+        value: "0"
+      - 
+        key: "Errors count #2"
+        value: "0"
+      - 
+        key: "Errors count #3"
+        value: "0"
+      - 
+        key: "Errors count #4"
+        value: "0"
+  - 
+    level: 2
+    name: "mavros: Battery"
+    message: "No data"
+    hardware_id: "udp://:14540@127.0.0.1:14557"
+    values: 
+      - 
+        key: "Voltage"
+        value: "-1.00"
+      - 
+        key: "Current"
+        value: "0.0"
+      - 
+        key: "Remaining"
+        value: "0.0"
+  - 
+    level: 2
+    name: "mavros: Time Sync"
+    message: "No events recorded."
+    hardware_id: "udp://:14540@127.0.0.1:14557"
+    values: 
+      - 
+        key: "Timesyncs since startup"
+        value: "0"
+      - 
+        key: "Frequency (Hz)"
+        value: "0.000000"
+      - 
+        key: "Last RTT (ms)"
+        value: "0.000000"
+      - 
+        key: "Mean RTT (ms)"
+        value: "0.000000"
+      - 
+        key: "Last remote time (s)"
+        value: "0.000000000"
+      - 
+        key: "Estimated time offset (s)"
+        value: "0.000000000"
+---

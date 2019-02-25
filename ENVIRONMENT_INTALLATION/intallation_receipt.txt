@@ -21,6 +21,9 @@
     sudo apt-get install python-defusedxml
     pip install --user defusedxml
     pip install --user netifaces
+    
+# Error when launching mavros arm. Mavros logs in mavros_logs_stage_1.txt
+# Possible help in this link: https://github.com/mavlink/mavros/issues/538    &    https://github.com/mavlink/mavros/issues/719  but not really helpgul. Question asked in JDeRobot Github 25/02/2019
 
 
  
