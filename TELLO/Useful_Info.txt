@@ -1,0 +1,6 @@
+This documents includes extra information that can be useful for TELLO programming
+
+1) Setting a UDP client: https://tutorialedge.net/python/udp-client-server-python/
+
+2) Encoding messages: https://www.programiz.com/python-programming/methods/string/encode
+

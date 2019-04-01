@@ -1,0 +1,7 @@
+This documents includes interesting information about programming TELLO drone
+
+1) Program TELLO with Python. Tutorial (60E): https://learn.droneblocks.io/p/tello-drone-programming-with-python
+
+2) TELLO Edu: https://www.ryzerobotics.com/es/tello-edu
+
+3) TELLO SDK User Guide: https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf
