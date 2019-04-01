@@ -20,3 +20,4 @@ clientSock.sendto("Bye Bye, Server".encode(encoding='UTF-8'), (UDP_IP_ADDRESS, U
 # Receiving information
 data = clientSock.recv(4096)
 print("Received: " + data.decode(encoding='UTF-8'))
+#
