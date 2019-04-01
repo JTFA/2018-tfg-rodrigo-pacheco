@@ -1,23 +1,47 @@
 import socket
+import time
 
 # Constants
-UDP_IP_ADDRESS = "127.0.0.1"
-UDP_PORT_NO = 6789
-Message = "Hello, Server"
+TELLO_CLIENT_IP = "192.168.10.1"
+TELLO_CLIENT_PORT = 8889
+INITIATE_SDK = "command"
+BATTERY = "battery?"
+WIFI = "wifi?"
+SDK_VERSION = "sdk?"
+STREAM_ON = "streamon"
 
-# Socket creation
+# Client socket creation
 clientSock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
-# Sending information (1)
-clientSock.sendto(Message.encode(encoding='UTF-8'), (UDP_IP_ADDRESS, UDP_PORT_NO))
-
-# Receiving information
+# Initiate SDK
+clientSock.sendto(INITIATE_SDK.encode(encoding='UTF-8'), (TELLO_CLIENT_IP, TELLO_CLIENT_PORT))
+print("SDK Initiated")
+# # Receiving information
 data = clientSock.recv(4096)
 print("Received: " + data.decode(encoding='UTF-8'))
 
-# Sending information (2)
-clientSock.sendto("Bye Bye, Server".encode(encoding='UTF-8'), (UDP_IP_ADDRESS, UDP_PORT_NO))
-# Receiving information
+
+# Getting battery status
+clientSock.sendto(BATTERY.encode(encoding='UTF-8'), (TELLO_CLIENT_IP, TELLO_CLIENT_PORT))
+print("Battery sent")
+data = clientSock.recv(4096)
+print("Received: " + data.decode(encoding='UTF-8'))
+
+# Getting WiFi status
+clientSock.sendto(WIFI.encode(encoding='UTF-8'), (TELLO_CLIENT_IP, TELLO_CLIENT_PORT))
+print("WiFi sent")
 data = clientSock.recv(4096)
 print("Received: " + data.decode(encoding='UTF-8'))
 #
+
+# Getting SDK Version
+clientSock.sendto(SDK_VERSION.encode(encoding='UTF-8'), (TELLO_CLIENT_IP, TELLO_CLIENT_PORT))
+print("SDK sent")
+data = clientSock.recv(4096)
+print("Received: " + data.decode(encoding='UTF-8'))
+
+# Activating stream
+clientSock.sendto(STREAM_ON.encode(encoding='UTF-8'), (TELLO_CLIENT_IP, TELLO_CLIENT_PORT))
+print("Stream sent")
+data = clientSock.recv(4096)
+print("Received: " + data.decode(encoding='UTF-8'))
