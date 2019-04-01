@@ -1,4 +1,5 @@
 import socket
+import vlc
 
 # Constants
 TELLO_SERVER_IP = "0.0.0.0"
@@ -11,10 +12,11 @@ serverSock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 serverSock.bind((TELLO_SERVER_IP, TELLO_SERVER_PORT))
 
 # Print messages received
+player = vlc.MediaPlayer('rtsp://:8554/output.h264')
 while True:
     data, addr = serverSock.recvfrom(1024)
     if data:
-        response = data.decode(encoding='UTF-8')
+        frame = self._h264_decode(data)
         print("Message: " + response)
         if "mid" != response.split(":")[0]:
             print ("Message: " + response)

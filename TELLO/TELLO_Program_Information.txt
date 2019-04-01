@@ -8,3 +8,6 @@ This documents includes interesting information about programming TELLO drone
 
 3) TELLO SDK User Guide:
     https://dl-cdn.ryzerobotics.com/downloads/Tello/Tello%20SDK%202.0%20User%20Guide.pdf
+
+4) Playin TELLO video stream:
+    https://tellopilots.com/threads/tello-video-web-streaming.455/
